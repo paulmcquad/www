@@ -1,126 +1,121 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Paul's About Page</title>
-  <!--HEAD bootstrap v3.2.0 -->
-  <script src="js/main.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+<meta charset="utf-8">
+<meta name="author" content="Paul McQuade">
+<meta name="description" content="My Website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <meta name="author" content="Paul McQuade">
-  <meta name="description" content="My Website">
+<title>Paul's About Page</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--HEAD bootstrap v3.2.0 -->
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- slidesjs.css -->
-  <link rel="stylesheet" href="css/slidesjs.css">
-  <!-- SlidesJS Required: For these styles -->
-  <link rel="stylesheet" href="css/slides-style.css">
+<!-- slidesjs.css SlidesJS Required: For these styles -->
+<link rel="stylesheet" href="css/slidesjs.css">
+<link rel="stylesheet" href="css/slides-style.css">
+<link rel="stylesheet" href="css/icon-font.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/icon-font.css">
+<script src="js/jquery.slides.min.js"></script>
+<script src="js/myslides.js"></script>
 
-  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <!-- End SlidesJS Required -->
 
-  <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="js/jquery.slides.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <script src="js/myslides.js"></script>
 </head>
 <body>
+<!-- BODY nav-sidebar   -->
+  <nav class="navbar navbar-inverse sidebar" role="navigation">
+      <div class="container-fluid">
+  		<!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> -->
+        <a class="navbar-brand" href="#">Paul's Website</a>
 
-  <!-- BODY nav-sidebar   -->
-    <nav class="navbar navbar-inverse sidebar" role="navigation">
-        <div class="container-fluid">
-    		<!-- Brand and toggle get grouped for better mobile display -->
-    		<div class="navbar-header">
-    			<!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
-    				<span class="sr-only">Toggle navigation</span>
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-    			</button> -->
-    			<a class="navbar-brand" href="#">Paul's Website</a>
-
-          <div class="icon-bar">
-            <a class="active" href="#"><i class="fa fa-home"></i></a>
-            <a href="#"><i class="fa fa-search"></i></a>
-            <a href="#"><i class="fa fa-envelope"></i></a>
-            <a href="#"><i class="fa fa-globe"></i></a>
-            <a href="#"><i class="fa fa-trash"></i></a>
-          </div>
-    		</div>
-
-    		<!-- Collect the nav links, forms, and other content for toggling -->
-    		<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-    			<ul class="nav navbar-nav">
-    				<li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-    				<li ><a href="#">Profile<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
-    				<li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
-    				<li class="dropdown">
-    					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
-    					<ul class="dropdown-menu forAnimate" role="menu">
-    						<li><a href="#">Action</a></li>
-    						<li><a href="#">Another action</a></li>
-    						<li><a href="#">Something else here</a></li>
-    						<li class="divider"></li>
-    						<li><a href="#">Separated link</a></li>
-    						<li class="divider"></li>
-    						<li><a href="#">One more separated link</a></li>
-    					</ul>
-    				</li>
-    				<li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-    				<li ><a href="#">Profile<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
-    				<li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
-    				<li class="dropdown">
-    					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
-    					<ul class="dropdown-menu forAnimate" role="menu">
-    						<li><a href="#">Action</a></li>
-    						<li><a href="#">Another action</a></li>
-    						<li><a href="#">Something else here</a></li>
-    						<li class="divider"></li>
-    						<li><a href="#">Separated link</a></li>
-    						<li class="divider"></li>
-    						<li><a href="#">One more separated link</a></li>
-    					</ul>
-    				</li>
-    			</ul>
-    		</div>
-    	</div>
-    </nav>
-    <div class="main">
-
-      <!-- SlidesJS Required: Start Slides -->
-      <!-- The container is used to define the width of the slideshow -->
-      <div class="container">
-        <div id="slides">
-          <img src="img/paul1.jpg" alt="Photo by: Paul McQuade">
-          <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-          <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-          <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+        <div class="icon-bar">
+          <a class="active" href="#"><i class="fa fa-home"></i></a>
+          <a href="#"><i class="fa fa-search"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+          <a href="#"><i class="fa fa-globe"></i></a>
+          <a href="#"><i class="fa fa-trash"></i></a>
         </div>
       </div>
-      <!-- End SlidesJS Required: Start Slides -->
 
-    ABOUT.html
-      I'm Paul McQuade a Electronics Engineer from IT Tallaght - Dublin (ITD).
-      I'm also a irish hobbyist computer programmer.
-      I'm based in Swords, Co.Dublin.
-      In my spare time i go to Dublin's hackerspace - Tog.ie to code, build and think out ideas to make the world better.
-    <nav>
-      <ul>
-        <li>Gmail:<a href="mailto:paulmcquad@gmail.com">paulmcquad@gmail.com</a></li>
-        <li>Github:<a href="https://github.com/paulmcquad"> paulmcquad</a></li>
-        <li>Twitter:<a href="https://twitter.com/paulmcquad">@paulmcquad</a></li>
-        <li>Facebook:<a href="https://www.facebook.com/paulmcquad">paulmcquad</a></li>
-        <li>Linkedin:<a href="https://www.linkedin.com/in/paulmcquad/">paulmcquad</a></li>
-      </ul>
-    </nav>
-    <!-- Content Here -->
-    </div>
 
+
+      </div>
+  		<!-- Collect the nav links, forms, and other content for toggling -->
+  		<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+  			<ul class="nav navbar-nav">
+  				<li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+  				<li ><a href="about/about.html">About<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+  				<li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+  				<li class="dropdown">
+  					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
+  					<ul class="dropdown-menu forAnimate" role="menu">
+  						<li><a href="#">Action</a></li>
+  						<li><a href="#">Another action</a></li>
+  						<li><a href="#">Something else here</a></li>
+  						<li class="divider"></li>
+  						<li><a href="#">Separated link</a></li>
+  						<li class="divider"></li>
+  						<li><a href="#">One more separated link</a></li>
+  					</ul>
+  				</li>
+  				<li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+  				<li ><a href="#">Profile<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+  				<li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+  				<li class="dropdown">
+  					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
+  					<ul class="dropdown-menu forAnimate" role="menu">
+  						<li><a href="#">Action</a></li>
+  						<li><a href="#">Another action</a></li>
+  						<li><a href="#">Something else here</a></li>
+  						<li class="divider"></li>
+  						<li><a href="#">Separated link</a></li>
+  						<li class="divider"></li>
+  						<li><a href="#">One more separated link</a></li>
+  					</ul>
+  				</li>
+  			</ul>
+  		</div>
+  	</div>
+  </nav>
+  <div class="main">
+  <!-- Content Here -->
+
+        <!-- SlidesJS Required: Start Slides -->
+        <!-- The container is used to define the width of the slideshow -->
+        <div class="container">
+          <div id="slides">
+            <img src="img/paul1.jpg" alt="Photo by: Paul McQuade">
+            <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+            <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+            <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+          </div>
+        </div>
+        <!-- End SlidesJS Required: Start Slides -->
+
+      ABOUT.html
+        I'm Paul McQuade a Electronics Engineer from IT Tallaght - Dublin (ITD).
+        I'm also a irish hobbyist computer programmer.
+        I'm based in Swords, Co.Dublin.
+        In my spare time i go to Dublin's hackerspace - Tog.ie to code, build and think out ideas to make the world better.
+      <nav>
+        <ul>
+          <li>Gmail:<a href="mailto:paulmcquad@gmail.com">paulmcquad@gmail.com</a></li>
+          <li>Github:<a href="https://github.com/paulmcquad"> paulmcquad</a></li>
+          <li>Twitter:<a href="https://twitter.com/paulmcquad">@paulmcquad</a></li>
+          <li>Facebook:<a href="https://www.facebook.com/paulmcquad">paulmcquad</a></li>
+          <li>Linkedin:<a href="https://www.linkedin.com/in/paulmcquad/">paulmcquad</a></li>
+        </ul>
+      </nav>
+  </div>
 </body>
 </html>
