@@ -1,100 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
 <meta charset="utf-8">
 <meta name="author" content="Paul McQuade">
 <meta name="description" content="My Website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Code - Paul McQuade</title>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<!--HEAD bootstrap v3.2.0 -->
-<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<title>Empty2 - Paul McQuade</title>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 <!-- slidesjs.css SlidesJS Required: For these styles -->
-<link rel="stylesheet" href="css/slidesjs.css">
-<link rel="stylesheet" href="css/slides-style.css">
 <link rel="stylesheet" href="css/icon-font.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<!-- <script src="js/jquery.slides.min.js"></script> -->
 
-<script src="js/main.js"></script>
-<script src="js/jquery.slides.min.js"></script>
-<script src="js/myslides.js"></script>
-
-
-</head>
 <body>
-<!-- BODY nav-sidebar   -->
   <nav class="navbar navbar-inverse sidebar" role="navigation">
-      <div class="container-fluid">
-  		<!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button> -->
-        <a class="navbar-brand" href="#">Paul McQuade</a>
+    <a class="navbar-brand" href="index.html">Paul McQuade</a>
+    <div class="icon-bar">
+      <a class="active" href="index.html"><i class="fa fa-home"></i></a>
+      <a href="travel.html"><i class="fa fa-photo"></i></a>
+      <a href="code.html"><i class="fa fa-code"></i></a>
+      <a href="study.html"><i class="fa fa-book"></i></a>
+      <a href="interests.html"><i class="fa fa-check"></i></a>
+    </div>
+  </nav>
 
-        <div class="icon-bar">
-          <a href="about.html"><i class="fa fa-home"></i></a>
-          <a href="#"><i class="fa fa-photo"></i></a>
-          <a class="active" href="#"><i class="fa fa-code"></i></a>
-          <a href="#"><i class="fa fa-bookmark"></i></a>
-          <a href="#"><i class="fa fa-trash"></i></a>
+
+  <style>
+  /*Your styles goes here*/
+  body{
+      font-family: 'Lato', sans-serif;
+      background: #f7f7f4;
+  }
+
+  .text-center{
+      text-align: center;
+      margin: 1.25rem 0;
+      border-bottom: 1px solid #dadada;
+      padding: 1.25rem 0;
+  }
+
+  .col-md-3{
+      margin: 1.25rem 0;
+  }
+
+  @media screen and (max-width: 34em) {
+    .col-sm-6{
+      margin-left: 1.25rem;
+  }
+
+  }
+  </style>
+
+<!-- Content goes here -->
+    <div class="container">
+      <div class="row">
+      <div class="row">
+          <header class="col-md-12 text-center">
+          <h1>Paul McQuade - About Me</h1>
+          <h2>What have I been doing with my life?</h2>
+          </header>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+          <h3>Computer Programming</h3>
+          I program in many computer languages like:
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Javascript</li>
+          <li>Bootstrap</li>
+          <li>font-awesome.css</li>
+          <li>Jquery</li>
+          <li>SlidesJS</li>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <h3>Travelling</h3>
+
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <h3>Travelling</h3>
+
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <h3>Travelling</h3>
+
         </div>
       </div>
-
-
-
-      </div>
-  		<!-- Collect the nav links, forms, and other content for toggling -->
-  		<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-  			<ul class="nav navbar-nav">
-  				<li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-  				<li ><a href="about/about.html">About<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
-  				<li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
-  				<li class="dropdown">
-  					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
-  					<ul class="dropdown-menu forAnimate" role="menu">
-  						<li><a href="#">Action</a></li>
-  						<li><a href="#">Another action</a></li>
-  						<li><a href="#">Something else here</a></li>
-  						<li class="divider"></li>
-  						<li><a href="#">Separated link</a></li>
-  						<li class="divider"></li>
-  						<li><a href="#">One more separated link</a></li>
-  					</ul>
-  				</li>
-  				<li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-  				<li ><a href="#">Profile<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
-  				<li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
-  				<li class="dropdown">
-  					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
-  					<ul class="dropdown-menu forAnimate" role="menu">
-  						<li><a href="#">Action</a></li>
-  						<li><a href="#">Another action</a></li>
-  						<li><a href="#">Something else here</a></li>
-  						<li class="divider"></li>
-  						<li><a href="#">Separated link</a></li>
-  						<li class="divider"></li>
-  						<li><a href="#">One more separated link</a></li>
-  					</ul>
-  				</li>
-  			</ul>
-  		</div>
-  	</div>
-  </nav>
-  <div class="main">
-  <!-- Content Here -->
-  <h3><b>Coding</b></h3>
-
-  HTML5, CSS3, font-awesome.css,
-  Javascript, Jquery, SlidesJS,
-  bootstrap
-
+    </div>
   </div>
+
+      <div class="icon-bar">
+        <a href="https://www.facebook.com/paulmcquad"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://www.linkedin.com/in/paulmcquad/"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://twitter.com/paulmcquad"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://github.com/paulmcquad"><i class="fa fa-github-square"></i></a>
+        <a href="mailto:paulmcquad@gmail.com"><i class="fa fa-at"></i></a>
+      </div>
+
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
