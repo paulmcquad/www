@@ -1,0 +1,26 @@
+{
+  "name": "www",
+  "version": "0.0.1",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulmcquad/www.git"
+  },
+  "author": "Paul McQuade",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/paulmcquad/www/issues"
+  },
+  "homepage": "https://github.com/paulmcquad/www#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
