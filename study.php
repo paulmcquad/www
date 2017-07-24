@@ -8,7 +8,7 @@
 <title>Interests</title>
 
   <?php include('content/header.php'); ?>
-  
+
 <body>
   <nav class="navbar navbar-inverse sidebar" role="navigation">
     <a class="navbar-brand" href="index.php">Paul McQuade</a>
@@ -20,9 +20,6 @@
       <a href="interests.php"><i class="fa fa-check"></i></a>
     </div>
   </nav>
-
-
-
 
 <!-- Content goes here -->
     <div class="container">

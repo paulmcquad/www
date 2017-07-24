@@ -8,7 +8,7 @@
 <title>Travel</title>
 
   <?php include('content/header.php'); ?>
-  
+
 <body>
   <nav class="navbar navbar-inverse sidebar" role="navigation">
     <a class="navbar-brand" href="index.php">Paul McQuade</a>
