@@ -21,16 +21,15 @@
 
 <body>
   <nav class="navbar navbar-inverse sidebar" role="navigation">
-    <a class="navbar-brand" href="index.html">Paul McQuade</a>
+    <a class="navbar-brand" href="index.php">Paul McQuade</a>
     <div class="icon-bar">
-      <a  href="index.html"><i class="fa fa-home"></i></a>
-      <a href="travel.html"><i class="fa fa-photo"></i></a>
-      <a class="active" href="code.html"><i class="fa fa-code"></i></a>
-      <a href="study.html"><i class="fa fa-book"></i></a>
-      <a href="interests.html"><i class="fa fa-check"></i></a>
+      <a href="index.php"><i class="fa fa-home"></i></a>
+      <a href="travel.php"><i class="fa fa-photo"></i></a>
+      <a class="active"href="code.php"><i class="fa fa-code"></i></a>
+      <a href="study.php"><i class="fa fa-book"></i></a>
+      <a href="interests.php"><i class="fa fa-check"></i></a>
     </div>
   </nav>
-
 
 <!-- Content goes here -->
     <div class="container">
