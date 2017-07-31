@@ -3,7 +3,7 @@
   <a href="https://www.linkedin.com/in/paulmcquad/"><i class="fa fa-linkedin-square"></i></a>
   <a href="https://twitter.com/paulmcquad"><i class="fa fa-twitter-square"></i></a>
   <a href="https://github.com/paulmcquad"><i class="fa fa-github-square"></i></a>
-  <a href="mailto:paulmcquad@gmail.com"><i class="fa fa-at"></i></a>
+  <a href="mailto:paulmcquad@irishbit.com"><i class="fa fa-at"></i></a>
 </div>
 
 <script src="js/showSlides.js"></script>
