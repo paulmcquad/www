@@ -35,19 +35,19 @@
     <li>HTML5</li>
     <li>CSS3</li>
     <li>Javascript</li>
-                 <a class="btn btn-primary-outline" href="code.html" role="button">Read More &rarr;</a>
+                 <a class="btn btn-primary-outline" href="code.php" role="button">Read More &rarr;</a>
             </div>
     <div class="col-md-3 col-sm-6 col-xs-12">
     <h3>Travelling</h3>
     I have been to Málaga - Spain, Rock of Gibraltar, London - UK and New York USA.
     I would love to travel more and maybe see Paris, France and Berlin Germany.
-                 <a class="btn btn-primary-outline" href="travel.html" role="button">Read More &rarr;</a>
+                 <a class="btn btn-primary-outline" href="travel.php" role="button">Read More &rarr;</a>
             </div>
     <div class="col-md-3 col-sm-6 col-xs-12">
     <h3>Studying</h3>
     I'm currently studying "Retail Practice" QQI Level 5 Course.
     I studied "Electronics Engineer" in IT Tallaght - Dublin (ITD) in Ireland.
-                 <a class="btn btn-primary-outline" href="study.html" role="button">Read More &rarr;</a>
+                 <a class="btn btn-primary-outline" href="study.php" role="button">Read More &rarr;</a>
             </div>
     <div class="col-md-3 col-sm-6 col-xs-12">
     <h3>Interests</h3>
@@ -55,7 +55,7 @@
     Going to the "Movies @ Swords".
     Shopping in the Pavilions.
     Going Clubbing - Wright's Café Bar.
-                 <a class="btn btn-primary-outline" href="interests.html" role="button">Read More &rarr;</a>
+                 <a class="btn btn-primary-outline" href="interests.php" role="button">Read More &rarr;</a>
             </div>
         </div>
     </div>
