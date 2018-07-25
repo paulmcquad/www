@@ -1,13 +1,14 @@
 <div class="icon-bar">
-  <a href="https://www.facebook.com/paulmcquad"><i class="fa fa-facebook-square"></i></a>
-  <a href="https://www.linkedin.com/in/paulmcquad/"><i class="fa fa-linkedin-square"></i></a>
-  <a href="https://twitter.com/paulmcquad"><i class="fa fa-twitter-square"></i></a>
-  <a href="https://github.com/paulmcquad"><i class="fa fa-github-square"></i></a>
+  <a href="https://www.facebook.com/paulmcquad"><i class="fab fa-facebook-square"></i></a>
+  <a href="https://www.linkedin.com/in/paulmcquad/"><i class="fab fa-linkedin"></i></a>
+  <a href="https://twitter.com/paulmcquad"><i class="fab fa-twitter-square"></i></a>
+  <a href="https://github.com/paulmcquad"><i class="fab fa-github-square"></i></a>
   <a href="mailto:paulmcquad@irishbit.com"><i class="fa fa-at"></i></a>
 </div>
 
 <script src="js/showSlides.js"></script>
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js" integrity="sha256-m2ByX2d6bw2LPNGOjjELQGPrn6XyouMV9RuVzKhJ5hA=" crossorigin="anonymous"></script>

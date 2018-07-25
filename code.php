@@ -7,13 +7,13 @@
 
 <title>Code</title>
   <?php include('content/header.php'); ?>
-  
+
 <body>
   <nav class="navbar navbar-inverse sidebar" role="navigation">
     <a class="navbar-brand" href="index.php">Paul McQuade</a>
     <div class="icon-bar">
       <a href="index.php"><i class="fa fa-home"></i></a>
-      <a href="travel.php"><i class="fa fa-photo"></i></a>
+      <a href="travel.php"><i class="fas fa-images"></i></a>
       <a class="active"href="code.php"><i class="fa fa-code"></i></a>
       <a href="study.php"><i class="fa fa-book"></i></a>
       <a href="interests.php"><i class="fa fa-check"></i></a>
